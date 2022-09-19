@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Preahvihear&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    
+}
+
+.MuiTabs-indicator .css-1aquho2-MuiTabs-indicator{
+    background-color: #E31F26;
+}
+
+.MuiButtonBase-root .MuiTab-root .MuiTab-textColorWarning .Mui-selected .css-1nwif9g-MuiButtonBase-root-MuiTab-root{
+    color: #ffffff;
+}
+
+
+.headerBanner{
+    
+    background-position: center center;
+    width: 100%;
+    height: 590px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    .vektr{
+        position: absolute;
+        top:50%;
+        left: 0;
+       }
+    .hdrb{
+        
+        overflow: hidden;
+        width: 100%;
+   height: 590px;
+        background-color: rgba($color: #212121, $alpha: 0.5);
+       
+      
+
+        
+    }
+   
+}
+
+.personal1{
+    border-radius:30px;
+    height: 703px;
+     
+   
+}
+.pers{
+    height: 483.81px;
+}
+.pers1{
+    height: 483.81px;
+}
+ .cardper{
+    height:"703px"
+    }
+
+// carusel style 
+
+.MuiGrid-root .css-1g6ykgp-MuiGrid-root{
+    margin-left: 40px;
+    margin-right: -140px;
+}
+
+
+@media (max-width:2000px){
+    .vektr{
+       display: none;
+       }
+}
+@media (max-width:1686.25px){
+    .vektr{
+       display: none;
+       }
+}
+@media (max-width:1498.89px){
+    .vektr{
+       display: flex;
+       
+       }
+}
+
+@media (max-width:1333px){
+    .vektr{
+       display: none;
+       }
+}
+
+
+
+@media (max-width:767px){
+    .headerBanner{
+    
+     
+        width: 100%;
+        position: relative;
+        background-repeat: no-repeat;
+        height: 180px;
+        background-size: cover;
+
+
+         .hdrb{
+        
+        overflow: hidden;
+        width: 100%;
+        height: 570px;
+         background-color: rgba(87, 86, 86, 0.5);
+      
+
+        
+    }
+    }
+    .cardper{
+      height: 280px;
+    }
+    .personal1{
+
+      height: 153px;
+       
+    }
+    .pers{
+        height: 283.81px;
+    }
+    .pers1{
+        width: 270px;
+        height: 240px;
+
+    }
+    .mapicon{
+        width:35px;
+       
+        
+    }
+
+
+}
